@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const paymentRoutes = require('./routes/payments');
 const config = require('./config');
 
 const app = express();
